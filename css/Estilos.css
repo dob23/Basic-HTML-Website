@@ -1,0 +1,159 @@
+/* Reset general */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia;
+    position: relative;
+}
+
+/* Encabezado con el nombre y el ícono */
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.user i {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Opciones de navegación */
+.opciones {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 350px;
+}
+
+.opciones li {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.opciones a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+.opciones a:hover {
+    color: #007bff;
+}
+
+/* Título centrado */
+.texto-centrado {
+    margin: 150px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* Contenedor principal */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* Projects (izquierda) */
+.projects {
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.projects h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.projects ul {
+    list-style-type: none;
+}
+
+.projects li {
+    margin-bottom: 10px;
+}
+
+/* Experiencia (centro) */
+.Experiencia {
+    flex: 2;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* División de Work Experience y Open Source Work */
+.work-experience {
+    padding-bottom: 15px;
+}
+
+.open-source {
+    border-top: 1px solid black; /* Línea divisoria */
+    padding-top: 15px; /* Espaciado tras la línea */
+    margin-top: 15px; /* Espaciado superior */
+}
+
+/* Education (derecha) */
+.education {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.education h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.education p {
+    margin-bottom: 10px;
+}
+
+.education ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.education li {
+    margin-bottom: 5px;
+}
