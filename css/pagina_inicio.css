@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Georgia;
+    font-family:sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
 }
 
@@ -84,7 +84,7 @@ body {
 .main-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 
 /* Projects (izquierda) */
@@ -93,12 +93,12 @@ body {
     padding: 20px;
     margin-right: 20px;
     background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     border-radius: 8px;
 }
 
 .projects h2 {
-    color: #007bff;
+    color: #000000;
     margin-bottom: 15px;
 }
 
@@ -115,7 +115,7 @@ body {
     flex: 2;
     padding: 20px;
     background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    border: 1px solid #0c0c0c;
     border-radius: 8px;
     margin-right: 20px;
 }
@@ -136,12 +136,12 @@ body {
     flex: 1;
     padding: 20px;
     background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     border-radius: 8px;
 }
 
 .education h2 {
-    color: #007bff;
+    color: #000000;
     margin-bottom: 15px;
 }
 

@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Reset general */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+/* Encabezado con el nombre y el ícono */
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.user i {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Opciones de navegación */
+.opciones {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 350px;
+}
+
+.opciones li {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.opciones a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+.opciones a:hover {
+    color: #007bff;
+}
+
+/* Título centrado */
+.texto-centrado {
+    margin: 150px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}

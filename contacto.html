@@ -3,10 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--librerias-->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"rel="stylesheet"/>
+    <!--finlibrerias-->
     <title>Contacto</title>
-    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="user">
+          <i class="fa-solid fa-user"></i>
+          <p class="name">Daniel Ortiz</p>
+        </div>
+      </div>
+      <ul class="opciones">
+        <li><a href="Pagina_inicio.html">Inicio</a></li>
+        <li><a href="proyectos.html"> Proyectos</a></li>
+        <li><a href="articulos.html">Articulos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+
+      <main class="main-container">
+        <section class="contact-form">
+            <h2>Contactanos</h2>
+            <form ="#">
+                <ul>
+                <li><label for="nombre">Nombre:</label></li>
+                <li><input type="text" id="nombre" name="nombre" required></li>
+
+                <li><label for="email">Correo Electronico:</label></li>
+                <li><input type="text" id="email" name="email" required></li>
+
+                <li><label for="mensaje">Mensaje:</label></li>
+                <li><input type="text" id="mensaje" name="mensaje" required></li>
+
+                <button type="submit">Enviar</button></li>
+                </ul>
+
+
 </body>
 </html>
